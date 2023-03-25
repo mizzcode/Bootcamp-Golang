@@ -7,7 +7,7 @@ func main() {
 
 	var daftarTodoList []string
 
-	for {
+	for true {
 		var kegiatan string
 		fmt.Println("Masukkan Kegiatan")
 		fmt.Scanln(&kegiatan)
